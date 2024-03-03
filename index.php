@@ -7,10 +7,10 @@
     <title>Ariadna Ortiz Naya's Portfolio</title>
 
     <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -21,7 +21,7 @@
     <a href="#home" class="logo">Ari's Portfolio</a>
 
     <nav class="navbar">
-        <a href="#home" class="active">Home</a>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#portfolio">Porfolio</a>
@@ -30,7 +30,7 @@
 
     <div class="follow">
         <a href="https://instagram.com/spokenwordari" class="fab fa-instagram"></a>
-    </div>
+    </div> 
 
 </header>
 
