@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+    --grey: #313131;
+    --black: #111111;
+    --white: #eeeeee;
+    --light-bg: #fcfcfc;
+}
+
+*{
+    font-family: 'Red Hat Text', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    color:var(--black)
+}
+
+*::selection {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+html {
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: hidden;
+    transition: .2s linear !important;
+    background-color: var(--black);
+}
+
+body .active {
+    padding-left: 35rem;
+
+}
+
+.header {
+    position: fixed;
+    top:0; left:-35rem;
+    height: 100vh;
+    background-color: var(--light-bg);
+    width: 35rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    transition: .2s linear !important;
+    text-align: center;
+}
+
+.header .logo {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: medium;
+    font-size: 4rem;
+    padding-top: 1.5rem;
+}
+
+.header .navbar {
+ width: 100%;
+}
+.header .navbar a {
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 2.5rem;
+}
+
+.header .navbar a.active,
+.header .navbar a:hover {
+    background-color:var(--black);
+    color: var(--white);
+    border-radius: 2px;
+}
+
+.header .follow a {
+    font-size: 3rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#menu-btn {
+    position: absolute;
+    top: 0; right: -5.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--white);
+
+}
+
+.header .active {
+    left: 0rem;
+}
