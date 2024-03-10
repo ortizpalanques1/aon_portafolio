@@ -17,7 +17,6 @@
 
 <!-- header section starts -->
 <header class="header">
-    <div id="menu-btn" class="fas fa-bars"></div>
     <a href="#home" class="logo">Ari's Portfolio</a>
 
     <nav class="navbar">
@@ -30,6 +29,10 @@
 
     <div class="follow">
         <a href="https://instagram.com/spokenwordari" class="fab fa-instagram"></a>
+        <a href="https://instagram.com/spokenwordari" class="fab fa-facebook-fa"></a>
+        <a href="https://instagram.com/spokenwordari" class="fab fa-twitter"></a>
+        <a href="https://instagram.com/spokenwordari" class="fab fa-linkedin"></a>
+        <a href="https://instagram.com/spokenwordari" class="fab fa-github"></a>
     </div> 
 
 </header>
