@@ -17,10 +17,13 @@
 
 <!-- header section starts -->
 <header class="header">
+
+
+    <div id="menu-btn" class="fas fa-bars"></div>
     <a href="#home" class="logo">Ari's Portfolio</a>
 
     <nav class="navbar">
-        <a href="#home">Home</a>
+        <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#portfolio">Porfolio</a>
