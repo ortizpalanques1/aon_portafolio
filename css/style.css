@@ -60,6 +60,7 @@ body.active{
     border-right: var(--border-bold);
     width: 35rem;
     padding: 3rem 2rem;
+    padding-bottom: 9rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -68,7 +69,6 @@ body.active{
     transition: .2s linear !important;
     text-align: center;
 }
-
 
 .header .logo{
     text-transform: uppercase;
@@ -118,4 +118,51 @@ body.active{
 
 .header.active{
     left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    body.active{
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .header{
+        padding-top: 7rem;
+    }
+
+    #menu-btn.fa-times{
+        right:0;
+    }
+    
 }
