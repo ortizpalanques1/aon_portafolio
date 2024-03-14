@@ -134,13 +134,39 @@ section{
     gap: 2rem;
 }
 
+.home .image{
+    flex: 1 1 40rem;
+}
+
 .home .image img{
     height: 65rem;
     padding: 2rem;
     border: var(--border-bold);
 }
 
+.home .content{
+    flex: 1 1 40rem;
+}
 
+.home .content h3{
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-bottom: .5rem;
+}
+
+.home .content span{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--yellow);
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.home .content p{
+    font-size: 1.7rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
 
 
 
@@ -176,7 +202,7 @@ section{
         font-size: 50%;
     }
 
-    .header{
+    .header.active{
         padding-top: 7rem;
     }
 
