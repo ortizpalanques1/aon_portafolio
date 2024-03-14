@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,6 +40,29 @@
     </div> 
 
 </header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="images/user-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>hi, i am sana shaikh</h3>
+        <span>web designer & developer</span>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non temporibus tempora deserunt, ipsa velit voluptatem.</p>
+        <a href="#about" class= "btn">about me</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
 
 <!-- custom js file link -->
 <script src="js/script.js"></script>

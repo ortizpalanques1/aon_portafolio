@@ -52,6 +52,13 @@ body.active{
     padding-left: 35rem;
 }
 
+section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
 .header {
     position: fixed;
     top:0; left:-35rem;
@@ -60,7 +67,7 @@ body.active{
     border-right: var(--border-bold);
     width: 35rem;
     padding: 3rem 2rem;
-    padding-bottom: 9rem;
+    /* padding-bottom: 9rem; */
     text-align: center;
     display: flex;
     align-items: center;
@@ -120,6 +127,18 @@ body.active{
     left: 0;
 }
 
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.home .image img{
+    height: 65rem;
+    padding: 2rem;
+    border: var(--border-bold);
+}
 
 
 
