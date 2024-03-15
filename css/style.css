@@ -59,6 +59,31 @@ section{
     text-align: center;
 }
 
+.heading{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.heading span{
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    border-bottom: var(--border-bold);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    border:var(--border-light);
+    font-size: 2rem;
+}
+
+.btn:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+
 .header {
     position: fixed;
     top:0; left:-35rem;
@@ -132,6 +157,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    min-height: 100vh;
 }
 
 .home .image{
@@ -180,8 +206,6 @@ section{
 
 
 
-
-
 /* media queries */
 
 @media (max-width:991px){
@@ -208,6 +232,11 @@ section{
 
     #menu-btn.fa-times{
         right:0;
+    }
+
+    .home .image img{
+        height: auto;
+        width: 100%;
     }
     
 }

@@ -62,7 +62,31 @@
 
 <!-- home section ends -->
 
+<!-- about section starts -->
 
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>biography</span> </h1>
+
+    <div class="biography">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam perferendis totam aliquid optio ea, doloremque cum. Inventore dolore magnam libero.</p>
+    
+        <div class="bio">
+            <h3> <span>name : </span> sana shaikh</h3>
+            <h3> <span>email : </span> sanashaikh@gmail.com</h3>
+            <h3> <span>address : </span> mumbai, india</h3>
+            <h3> <span>phone : </span> +123-456-7890</h3>
+            <h3> <span>age : </span> 22 years </h3>
+            <h3> <span>experience : </span> 2+ years of experience</h3>
+        </div>
+        
+    </div>
+
+</section>
+
+
+<!-- about section ends -->
 
 <!-- custom js file link -->
 <script src="js/script.js"></script>
