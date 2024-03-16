@@ -90,10 +90,10 @@
         <h1 class="heading"> <span>skills</span></h1>
 
         <div class="progress">
-            <div class="bar"><span>HTML</span><span>95%</span></div>
-            <div class="bar"><span>CSS</span><span>85%</span></div>
-            <div class="bar"><span>JavaScript</span><span>65%</span></div>
-            <div class="bar"><span>PHP</span><span>80%</span></div>
+            <div class="bar"><h3><span>HTML</span><span>95%</span></h3></div>
+            <div class="bar"><h3><span>CSS</span><span>85%</span></h3></div>
+            <div class="bar"><h3><span>JavaScript</span><span>65%</span></h3></div>
+            <div class="bar"><h3><span>PHP</span><span>80%</span></h3></div>
         </div>
 
     </div>
