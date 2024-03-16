@@ -78,15 +78,31 @@
             <h3> <span>address : </span> mumbai, india</h3>
             <h3> <span>phone : </span> +123-456-7890</h3>
             <h3> <span>age : </span> 22 years </h3>
-            <h3> <span>experience : </span> 2+ years of experience</h3>
+            <h3> <span>experience : </span> 2+ years</h3>
         </div>
+
+        <a href="#" class="btn">download CV</a>
         
+    </div>
+
+    <div class="skills">
+
+        <h1 class="heading"> <span>skills</span></h1>
+
+        <div class="progress">
+            <div class="bar"><span>HTML</span><span>95%</span></div>
+            <div class="bar"><span>CSS</span><span>85%</span></div>
+            <div class="bar"><span>JavaScript</span><span>65%</span></div>
+            <div class="bar"><span>PHP</span><span>80%</span></div>
+        </div>
+
     </div>
 
 </section>
 
-
 <!-- about section ends -->
+
+
 
 <!-- custom js file link -->
 <script src="js/script.js"></script>
