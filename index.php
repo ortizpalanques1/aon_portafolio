@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta character="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,7 @@
 <body>
 
 <!-- header section starts -->
+
 <header class="header">
 
 
@@ -40,7 +42,6 @@
     </div> 
 
 </header>
-
 <!-- header section ends -->
 
 <!-- home section starts -->
@@ -59,7 +60,6 @@
     </div>
 
 </section>
-
 <!-- home section ends -->
 
 <!-- about section starts -->
@@ -98,7 +98,68 @@
 
     </div>
 
+    <div class="edu-exp">
+
+        <h1 class="heading"><span>education & experience</span></h1>
+
+        <div class="row">
+
+            <div class="box-container">
+
+                <h3 class="title">education</h3>
+
+                <div class="box">
+                    <span>( 2019 - 2020 )</span>
+                    <h3>web designer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quia dolorum deserunt? Voluptas, dolor pariatur.</p>
+                </div>
+
+                <div class="box">
+                    <span>( 2020 - 2021 )</span>
+                    <h3>web developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quia dolorum deserunt? Voluptas, dolor pariatur.</p>
+                </div>
+
+                <div class="box">
+                    <span>( 2021 - 2022 )</span>
+                    <h3>graphic designer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quia dolorum deserunt? Voluptas, dolor pariatur.</p>
+                </div>
+
+            </div>
+
+            <div class="box-container">
+
+                <h3 class="title">experience</h3>
+
+                <div class="box">
+                    <span>( 2019 - 2020 )</span>
+                    <h3>front-end developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quia dolorum deserunt? Voluptas, dolor pariatur.</p>
+                </div>
+
+                <div class="box">
+                    <span>( 2020 - 2021 )</span>
+                    <h3>back-end developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quia dolorum deserunt? Voluptas, dolor pariatur.</p>
+                </div>
+
+                <div class="box">
+                    <span>( 2021 - 2022 )</span>
+                    <h3>full-stack developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quia dolorum deserunt? Voluptas, dolor pariatur.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
+<!-- about section ends -->
+
+<!-- about section ends -->
 
 <!-- about section ends -->
 
