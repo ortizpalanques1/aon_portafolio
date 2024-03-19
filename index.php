@@ -256,10 +256,32 @@
 
     </div>
 
-
 </section>
 
 <!-- portfolio section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact me</span></h1>
+
+    <form action="" method="post">
+        <div class="flex">
+            <input type="text" name="name" placeholder="enter your name" class="box" required>
+            <input type="email" name="email" placeholder="enter your email" class="box" required>
+        </div>
+        <input type="number" min="0" name="number" placeholder="enter your number" class="box" required>
+        <textarea name="message" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" name="send" class="btn">
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<div class="credit">&copy; copyright @ <?php echo date('Y'); ?> by <span>mr. web designer</span></div>
+
 
 <!-- custom js file link -->
 <script src="js/script.js"></script>
