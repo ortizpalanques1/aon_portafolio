@@ -276,6 +276,28 @@
         <input type="submit" value="send message" name="send" class="btn">
     </form>
 
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>phone</h3>
+            <p>+123-456-7890</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>sanashaikh@gmail.com</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>address</h3>
+            <p>mumbai, india - 400104</p>
+        </div>
+
+    </div>
+
 </section>
 
 <!-- contact section ends -->
