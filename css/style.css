@@ -64,7 +64,7 @@ section{
     text-align: center;
 }
 
-.heading span{
+.heading span{ 
     text-transform: uppercase;
     font-size: 6.5rem;
     border-bottom: var(--border-bold);
@@ -80,6 +80,11 @@ section{
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
+    font-size: 2rem;
+}
+
+.message i{
+    cursor: pointer;
 }
 
 .btn{
