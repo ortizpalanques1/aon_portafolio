@@ -150,7 +150,7 @@ section{
     transition: .6s linear;
 }
 
-.header .follow a:hoover{
+.header .follow a:hover{
     transform: rotate(360deg);
 }
 

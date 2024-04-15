@@ -75,7 +75,7 @@ if(isset($message)){
 
     <div class="follow">
         <a href="https://instagram.com/spokenwordari" class="fab fa-instagram"></a>
-        <a href="https://instagram.com/spokenwordari" class="fab fa-facebook-fa"></a>
+        <a href="https://instagram.com/spokenwordari" class="fab fa-facebook"></a>
         <a href="https://instagram.com/spokenwordari" class="fab fa-twitter"></a>
         <a href="https://instagram.com/spokenwordari" class="fab fa-linkedin"></a>
         <a href="https://instagram.com/spokenwordari" class="fab fa-github"></a>
@@ -204,41 +204,41 @@ if(isset($message)){
 
 <section class="services" id="services">
 
-    <h1 class="heading"> <span>services</span></h1>
+    <h1 class="heading" data-aos="fade-up"> <span>services</span></h1>
 
     <div class="box-container">
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fas fa-code"></i>
             <h3>web development</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium quidem repudiandae dolore saepe laboriosam.</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fas fa-paint-brush"></i>
             <h3>graphic design</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium quidem repudiandae dolore saepe laboriosam.</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fab fa-bootstrap"></i>
             <h3>bootstrap</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium quidem repudiandae dolore saepe laboriosam.</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fas fa-chart-line"></i>
             <h3>seo marketing</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium quidem repudiandae dolore saepe laboriosam.</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fas fa-bullhorn"></i>
             <h3>digital marketing</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium quidem repudiandae dolore saepe laboriosam.</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fab fa-wordpress"></i>
             <h3>wordpress</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium quidem repudiandae dolore saepe laboriosam.</p>
@@ -254,41 +254,41 @@ if(isset($message)){
 
 <section class="portfolio" id="portfolio">
 
-    <h1 class="heading"><span>portfolio</span></h1>
+    <h1 class="heading" data-aos="fade-up"><span>portfolio</span></h1>
 
     <div class="box-container">
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <img src="images/img-1.jpg" alt="">
             <h3>web development</h3>
             <span>( 2020 - 2022 )</span>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <img src="images/img-2.jpg" alt="">
             <h3>web development</h3>
             <span>( 2020 - 2022 )</span>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <img src="images/img-3.jpg" alt="">
             <h3>web development</h3>
             <span>( 2020 - 2022 )</span>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <img src="images/img-4.jpg" alt="">
             <h3>web development</h3>
             <span>( 2020 - 2022 )</span>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <img src="images/img-5.jpg" alt="">
             <h3>web development</h3>
             <span>( 2020 - 2022 )</span>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <img src="images/img-6.jpg" alt="">
             <h3>web development</h3>
             <span>( 2020 - 2022 )</span>
@@ -304,33 +304,33 @@ if(isset($message)){
 
 <section class="contact" id="contact">
 
-    <h1 class="heading"><span>contact me</span></h1>
+    <h1 class="heading" data-aos="fade-up"><span>contact me</span></h1>
 
     <form action="" method="post">
         <div class="flex">
-            <input type="text" name="name" placeholder="enter your name" class="box" required>
-            <input type="email" name="email" placeholder="enter your email" class="box" required>
+            <input data-aos="fade-right" type="text" name="name" placeholder="enter your name" class="box" required>
+            <input data-aos="fade-left" type="email" name="email" placeholder="enter your email" class="box" required>
         </div>
-        <input type="number" min="0" name="number" placeholder="enter your number" class="box" required>
-        <textarea name="message" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
-        <input type="submit" value="send message" name="send" class="btn">
+        <input data-aos="fade-up" type="number" min="0" name="number" placeholder="enter your number" class="box" required>
+        <textarea data-aos="fade-up" name="message" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
+        <input type="submit" data-aos="zoom-in" value="send message" name="send" class="btn">
     </form>
 
     <div class="box-container">
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fas fa-phone"></i>
             <h3>phone</h3>
             <p>+123-456-7890</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fas fa-envelope"></i>
             <h3>email</h3>
             <p>sanashaikh@gmail.com</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fas fa-map-marker-alt"></i>
             <h3>address</h3>
             <p>mumbai, india - 400104</p>
